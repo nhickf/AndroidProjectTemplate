@@ -5,6 +5,7 @@ plugins {
     alias(libs.plugins.safe.args.ktx)
     alias(libs.plugins.ksp)
     alias(libs.plugins.hilt)
+    alias(libs.plugins.compose.compiler)
 }
 
 android {
