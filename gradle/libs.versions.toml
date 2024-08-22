@@ -14,7 +14,7 @@ room = "2.6.1"
 coil = "2.7.0"
 navigation = "2.7.7"
 constraint-layout = "1.0.1"
-ksp = "1.9.0-1.0.13"
+ksp = "2.0.0-1.0.22"
 hilt = "2.44"
 
 [libraries]
