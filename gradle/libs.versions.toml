@@ -14,8 +14,9 @@ room = "2.6.1"
 coil = "2.7.0"
 navigation = "2.7.7"
 constraint-layout = "1.0.1"
-ksp = "2.0.0-1.0.22"
-hilt = "2.44"
+ksp = "2.0.0-1.0.23"
+hilt = "2.49"
+hilt-nav-compose = "1.2.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -61,6 +62,7 @@ androidx-ui-ktx-nav = { group = "androidx.navigation", name = "navigation-ui-ktx
 #hilt
 androidx-hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
 androidx-hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+androidx-hilt-nav-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "hilt-nav-compose" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
